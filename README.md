@@ -26,12 +26,12 @@ _You'll need docker installed on your machine to run this in case you didn't kno
 
 ### Start the dev server
 
-`make up`
+`docker-compose up -d`
 
 ### Stop the server
 
-`make down`
+`docker-compose down`
 
 ### Build and start production build
 
-`make up-prod`
+`docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d`
