@@ -1,0 +1,7 @@
+version: '20.10.11'
+
+services:
+  ts-node-docker:
+    build:
+      target: production
+    command: node build/index.js
