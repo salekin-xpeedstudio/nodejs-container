@@ -18,7 +18,7 @@
 
 ## For running Docker Containers
 
-_You'll need docker installed on your machine to run this in case you didn't know!_
+_You'll need docker installed on your machine to run this_
 
 ### Build the image
 
